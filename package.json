@@ -1,0 +1,24 @@
+{
+  "name": "2024-jul-intro_to_docker",
+  "version": "1.0.0",
+  "description": "Intro to Docker and containerising a simple application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/earvin-tech/2024-JUL-intro_to_docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/earvin-tech/2024-JUL-intro_to_docker/issues"
+  },
+  "homepage": "https://github.com/earvin-tech/2024-JUL-intro_to_docker#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
