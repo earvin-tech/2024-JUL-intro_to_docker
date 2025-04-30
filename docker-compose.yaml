@@ -5,6 +5,8 @@ services:
       - "27017:27017"
     volumes:
       - mongo-data:/data/db
+    networks:
+      - backend
   express:
     build: .
     ports: 
@@ -13,6 +15,11 @@ services:
       - .env
     depends_on:
       - mongo
+    networks:
+      - backend
 volumes:
   mongo-data: 
     driver: local
+networks:
+  backend:
+    driver: bridge
